@@ -1,9 +1,16 @@
+import Header from "./components/Header";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1 className="text-4xl font-bold text-blue-600">Hello Tailwind v4 🚀</h1>
+      <Header />
+      <main className="min-h-screen bg-[#2f3450]">
+        <Contact />
+      </main>
+      <Footer />
     </>
   );
 }
